@@ -4,12 +4,12 @@ const siteUrl = 'https://docs.sajunan.cn'
 const siteTitle = 'CTF 新手手册'
 const siteTitleEn = 'CTF Handbook'
 const siteDescription =
-  '面向 CTF 新手的系统化学习手册：密码学、Web、Pwn、Reverse、Misc、取证、区块链与 AI 安全，从入门到实战。'
+  '面向 CTF 新手的系统化学习手册：密码学、Web、Pwn、Reverse、Misc、取证、区块链、AI 安全与单片机，从入门到实战。'
 const siteDescriptionEn =
-  'A systematic CTF handbook for beginners covering cryptography, web security, pwn, reverse engineering, misc, forensics, blockchain, and AI security.'
+  'A systematic CTF handbook for beginners covering cryptography, web security, pwn, reverse engineering, misc, forensics, blockchain, AI security, and MCU/hardware.'
 const siteTitleJa = 'CTF ハンドブック'
 const siteDescriptionJa =
-  '初心者向けの体系的な CTF ハンドブック。暗号技術、Web セキュリティ、Pwn、リバースエンジニアリング、Misc、フォレンジック、ブロックチェーン、AI セキュリティを扱います。'
+  '初心者向けの体系的な CTF ハンドブック。暗号技術、Web セキュリティ、Pwn、リバースエンジニアリング、Misc、フォレンジック、ブロックチェーン、AI セキュリティ、マイコンを扱います。'
 
 const repoUrl = 'https://github.com/sajunan/docs.sajunan.cn'
 
@@ -46,6 +46,11 @@ const enThemeConfig: DefaultTheme.Config = {
       activeMatch: '/en/forensics/'
     },
     {
+      text: 'MCU & Hardware',
+      link: '/en/mcu/',
+      activeMatch: '/en/mcu/'
+    },
+    {
       text: 'Blockchain',
       link: '/en/blockchain/',
       activeMatch: '/en/blockchain/'
@@ -76,6 +81,10 @@ const enThemeConfig: DefaultTheme.Config = {
     {
       text: 'Forensics',
       items: [{ text: 'Forensics Basics', link: '/en/forensics/' }]
+    },
+    {
+      text: 'MCU & Hardware',
+      items: [{ text: 'MCU Basics', link: '/en/mcu/' }]
     },
     {
       text: 'Blockchain',
@@ -156,6 +165,11 @@ const jaThemeConfig: DefaultTheme.Config = {
       activeMatch: '/ja/forensics/'
     },
     {
+      text: 'マイコン',
+      link: '/ja/mcu/',
+      activeMatch: '/ja/mcu/'
+    },
+    {
       text: 'ブロックチェーン',
       link: '/ja/blockchain/',
       activeMatch: '/ja/blockchain/'
@@ -186,6 +200,10 @@ const jaThemeConfig: DefaultTheme.Config = {
     {
       text: 'フォレンジック',
       items: [{ text: 'フォレンジック入門', link: '/ja/forensics/' }]
+    },
+    {
+      text: 'マイコン / ハードウェア',
+      items: [{ text: 'マイコン入門', link: '/ja/mcu/' }]
     },
     {
       text: 'ブロックチェーン',
@@ -286,7 +304,7 @@ export default defineConfig({
       {
         name: 'keywords',
         content:
-          'CTF,CTF 新手手册,CTF Handbook,CTF ハンドブック,网络安全,密码学,cryptography,暗号学,Web 安全,web security,Pwn,Reverse,リバース,Misc,取证,forensics,フォレンジック,区块链,blockchain,ブロックチェーン,AI 安全,AI security,AI セキュリティ'
+          'CTF,CTF 新手手册,CTF Handbook,CTF ハンドブック,网络安全,密码学,cryptography,暗号学,Web 安全,web security,Pwn,Reverse,リバース,Misc,取证,forensics,フォレンジック,区块链,blockchain,ブロックチェーン,AI 安全,AI security,AI セキュリティ,单片机,硬件,MCU,hardware,マイコン'
       }
     ],
     [
@@ -458,6 +476,7 @@ export default defineConfig({
       { text: '逆向工程', link: '/reverse/', activeMatch: '/reverse/' },
       { text: '杂项', link: '/misc/', activeMatch: '/misc/' },
       { text: '取证', link: '/forensics/', activeMatch: '/forensics/' },
+      { text: '单片机', link: '/mcu/', activeMatch: '/mcu/' },
       { text: '区块链', link: '/blockchain/', activeMatch: '/blockchain/' },
       { text: 'AI 安全', link: '/ai/', activeMatch: '/ai/' }
     ],
@@ -486,6 +505,10 @@ export default defineConfig({
       {
         text: '取证 Forensics',
         items: [{ text: '取证入门', link: '/forensics/' }]
+      },
+      {
+        text: '单片机 / 硬件',
+        items: [{ text: '单片机入门', link: '/mcu/' }]
       },
       {
         text: '区块链 Blockchain',

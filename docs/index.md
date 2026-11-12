@@ -4,7 +4,7 @@ layout: home
 hero:
   name: CTF 新手手册
   text: 从零开始，系统进阶
-  tagline: 覆盖密码学、Web、Pwn、Reverse、Misc、取证、区块链与 AI 安全八大方向，把零散的知识点整理成一条可执行的学习路线。
+  tagline: 覆盖密码学、Web、Pwn、Reverse、Misc、取证、单片机、区块链与 AI 安全九大方向，把零散的知识点整理成一条可执行的学习路线。
   image:
     src: /hero.svg
     alt: CTF 终端插画
@@ -66,6 +66,14 @@ features:
     link: /forensics/
     linkText: 查看内容
   - icon:
+      src: /icons/mcu.svg
+      width: 24
+      height: 24
+    title: 单片机 / 硬件
+    details: 电子基础、UART/I2C/SPI/SWD、Arduino/ESP32/STM32、串口调试、固件提取与 Ghidra 分析。
+    link: /mcu/
+    linkText: 查看内容
+  - icon:
       src: /icons/blockchain.svg
       width: 24
       height: 24
@@ -92,7 +100,7 @@ features:
 - **建立工具链**：熟悉 Python、SageMath、CyberChef、pwntools 等常用工具。
 - **记录总结**：每做完一道题，写下思路、卡点和最终解法，形成自己的知识库。
 
-> 目前密码学方向已整理完成，其他方向的内容会陆续补充。
+> 目前九个方向均已整理完成：密码学、Web、Pwn、逆向、Misc、取证、单片机、区块链与 AI 安全。
 
 <!--
   彩蛋达成！你找到了源码里的 flag：

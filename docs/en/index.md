@@ -4,7 +4,7 @@ layout: home
 hero:
   name: CTF Handbook
   text: From zero to systematic
-  tagline: A practical, beginner-friendly guide to Crypto, Web, Pwn, Reverse, Misc, Forensics, Blockchain and AI Security.
+  tagline: A practical, beginner-friendly guide to Crypto, Web, Pwn, Reverse, Misc, Forensics, MCU/Hardware, Blockchain and AI Security.
   image:
     src: /hero.svg
     alt: CTF terminal illustration
@@ -66,6 +66,14 @@ features:
     link: /en/forensics/
     linkText: View content
   - icon:
+      src: /icons/mcu.svg
+      width: 24
+      height: 24
+    title: MCU & Hardware
+    details: Electronics, UART/I2C/SPI/SWD, Arduino/ESP32/STM32, serial debugging, firmware extraction and analysis.
+    link: /en/mcu/
+    linkText: View content
+  - icon:
       src: /icons/blockchain.svg
       width: 24
       height: 24
@@ -92,4 +100,4 @@ The handbook is organized by CTF category. Each category is built from beginner-
 - **Build your toolkit**: get comfortable with Python, SageMath, CyberChef and pwntools.
 - **Write down what you learn**: record the idea, the blocker and the final solution for every challenge.
 
-> The Crypto handbook is available now. Other categories are being written.
+> All nine handbooks are available in Chinese; the Crypto handbook is also available in English. English and Japanese translations of the other chapters are in progress.

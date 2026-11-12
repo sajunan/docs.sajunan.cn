@@ -4,7 +4,7 @@ layout: home
 hero:
   name: CTF 初心者ハンドブック
   text: ゼロから始め、体系的にステップアップ
-  tagline: 暗号、Web、Pwn、Reverse、Misc、フォレンジック、ブロックチェーン、AI セキュリティの 8 分野をカバーし、散在する知識を実行可能な学習ロードマップへと整理します。
+  tagline: 暗号、Web、Pwn、Reverse、Misc、フォレンジック、マイコン、ブロックチェーン、AI セキュリティの 9 分野をカバーし、散在する知識を実行可能な学習ロードマップへと整理します。
   image:
     src: /hero.svg
     alt: CTF ターミナルのイラスト
@@ -66,6 +66,14 @@ features:
     link: /ja/forensics/
     linkText: 内容を見る
   - icon:
+      src: /icons/mcu.svg
+      width: 24
+      height: 24
+    title: マイコン / ハードウェア
+    details: 電子基礎、UART/I2C/SPI/SWD、Arduino/ESP32/STM32、シリアルデバッグ、ファームウェア抽出と解析。
+    link: /ja/mcu/
+    linkText: 内容を見る
+  - icon:
       src: /icons/blockchain.svg
       width: 24
       height: 24
@@ -92,7 +100,7 @@ features:
 - **ツールチェーンを構築する**：Python、SageMath、CyberChef、pwntools など、よく使うツールに慣れておきましょう。
 - **記録してまとめる**：問題を一問解くごとに、考え方、つまずいた点、最終的な解法を書き留め、自分だけの知識ベースを作りましょう。
 
-> 現在、暗号分野は整理が完了しています。その他の分野の内容も順次追加していきます。
+> 9 分野はすべて中国語で公開済みです。暗号は英語でも公開しています。その他の分野の英語・日本語訳は順次追加予定です。
 
 <!--
   イースターエッグ達成！ソースコードの中にある flag を見つけました：
